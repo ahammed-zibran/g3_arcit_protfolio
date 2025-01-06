@@ -1,0 +1,174 @@
+@media  screen and (min-width :1440px) {
+   :root{
+    --section-max-width:75%;
+    --normal-font-size:20px;
+    --large-font-size:50px;
+   }
+   p{
+    font-size: var(--normal-font-size);
+   }
+
+   /* *button preset* */
+.btn {
+    font-size: 24px;
+    padding: 20px 60px;
+  }
+
+
+
+   /* *============= querry starts from here ===========* */
+
+   
+/**nav style**/
+nav {
+    margin: 0rem auto 8rem;
+    max-width: var(--section-max-width);
+  
+    > .logo {
+      font-size: 55px;
+    }
+  
+    > ul {
+      width: 35%;
+    }
+  }
+  
+  /* *banner part* */
+  .banner {
+      max-width: var(--section-max-width);
+      
+        > .description {
+            margin: 1.8rem 0rem;
+            line-height: 1.5;
+        }
+        button {
+            padding: 20px 60px;
+            font-size: 23px;
+            margin: 1rem 0;
+        }
+    }
+
+    /* *quick list style */
+.quick-list {
+    width: 70%;
+    margin: 5rem auto 7rem;
+    gap: 2rem;
+  
+    > .images {
+      grid-template-columns: repeat(2, 350px);
+      gap: 15px;
+  
+      img {
+        width: 350px;
+      }
+    }
+  }
+
+  
+/** features style */
+.features{
+    max-width: var(--section-max-width);
+    >.txt{
+
+        .title{
+            padding: 0 2rem;
+        }
+
+        .descripttion{
+            padding: 2rem 0 3.5rem;
+        }
+        .features-items{
+            gap: 1.5rem;
+            padding: 1.5rem 0;
+            
+            .item{
+                padding: 1.5rem 2rem;
+                line-height: 1.4;
+
+                h5{
+                    margin-bottom: 8px;
+                }
+            }
+
+        }
+    }
+
+    >.image{
+        width: 55%;
+        img{
+            width: 90%;
+            margin: 0 0 0 8rem ;
+        }
+
+        h3{
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+            /*positioning*/
+            left: 4rem;
+            bottom: 90px;
+
+            span{
+                font-size: 26px;
+            }
+        }
+    }    
+}
+
+
+/* *facts style */
+.facts{
+    max-width: var(--section-max-width);
+    
+
+    >p{
+        margin: 1.5rem 0;
+    }
+
+    >div{
+        margin: 0rem auto;
+        width: 90%;
+        gap: 3rem 0;
+        justify-content: space-between;
+
+        .icons{
+            width: 300px;
+            height: 250px;
+            padding: 2rem 0rem 0;
+
+            h4{
+                font-size: 35px;
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+/* *sponsor style */
+.sponsor{
+    max-width: var(--section-max-width);
+
+    
+    div{
+
+        figure{
+            margin-top: 2rem;
+            img{
+                width: 80%;
+}
+        }
+    }
+}
+
+/* *footer style */
+footer{
+        max-width: var(--section-max-width);
+
+        p{
+            text-align: center;
+            padding: 2rem 0rem;
+        }
+    }
+
+
+
+}
