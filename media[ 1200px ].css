@@ -2,9 +2,9 @@
 
 @media  screen and (max-width:1200px) {
     :root{
-        --section-max-width:75%;
-        --normal-font-size:14px;
-        --large-font-size:35px;
+        --section-max-width:80%;
+        --normal-font-size:15px;
+        --large-font-size:38px;
        }
        p{
         font-size: var(--normal-font-size);
@@ -12,8 +12,84 @@
     
        /* *button preset* */
     .btn {
-        font-size: 24px;
-        padding: 20px 60px;
+        font-size: 22px;
+        padding: 15px 40px;
       }
-    
+
+
+      /**nav style**/
+nav {
+    margin: 0rem auto 7rem;
+    max-width: var(--section-max-width);
+  
+    > ul {
+      width: 40%;
+    }
+  }
+  /* *banner part* */
+  .banner {
+    max-width: var(--section-max-width);
+
+    button {
+      padding: 15px 40px;
+      font-size: 22px;
+    }
+    }
+  
+  
+  /* *quick list style */
+  .quick-list {
+
+    width: var(--section-max-width);
+    > .images {
+        margin-right: 0.5rem;
+    }
+  
+      .description {
+      }
+    }
+.quick-list
+br{
+    display: none;
 }
+  
+  /** features style */
+  .features{
+      max-width: var(--section-max-width);
+      >.txt{
+          .descripttion{
+              padding: 1.5rem 0 2.5rem;
+          }
+  
+          }
+  
+      >.image{
+          h3{
+              padding: 2.5rem 0rem;
+              left: 2.5rem;
+              bottom: 6rem;
+          }
+      }    
+  }
+  
+  /* *facts style */
+  .facts{
+      max-width: var(--section-max-width);
+      margin-top: 5rem;
+  
+  }
+  
+  /* *sponsor style */
+  .sponsor{
+      max-width: var(--section-max-width);
+  }
+  
+  /* *footer style */
+  footer{
+      margin: 8rem auto;
+          max-width: var(--section-max-width);
+  
+      }
+
+    }
+

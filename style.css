@@ -156,6 +156,7 @@ nav {
     max-width: 1050px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 5rem;
     /* align-items: center; */
     /* justify-content: center; */
     font-size: 14px;
